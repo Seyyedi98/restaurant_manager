@@ -1,0 +1,43 @@
+.card {
+  margin-inline: 2rem;
+  margin-top: 2rem;
+}
+
+.slider {
+  max-width: 80vw;
+  margin-inline: auto;
+  margin-top: 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.view_all {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.view_all h4 {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .cart {
+    width: 75vw;
+  }
+  .slider {
+    max-width: 65vw;
+    margin-top: 4rem;
+  }
+}

@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+.profile_image {
+  border-radius: 500px;
+  width: 4.5rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  line-height: 0.6;
+  color: var(--bs-dark);
+}
+
+.sub_title {
+  font-size: 1.4rem;
+  line-height: 0.6;
+  color: var(--primary);
+}
