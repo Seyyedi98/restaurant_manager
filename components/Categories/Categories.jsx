@@ -43,7 +43,7 @@ const categories = [
     image: burger,
   },
   {
-    title: "Drink",
+    title: "Drinks",
     image: drink,
   },
 ];
@@ -83,7 +83,7 @@ function Categories() {
               slidesPerView: 4,
               spaceBetween: 20,
             },
-            1200: {
+            1100: {
               slidesPerView: 5,
               spaceBetween: 0,
             },

@@ -26,7 +26,7 @@ function Foods() {
             },
             620: {
               slidesPerView: 2,
-              spaceBetween: 40,
+              spaceBetween: 30,
             },
             1200: {
               slidesPerView: 2,

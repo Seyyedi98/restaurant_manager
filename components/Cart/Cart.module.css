@@ -30,14 +30,3 @@
   margin-top: 3rem;
   align-self: center;
 }
-
-@media only screen and (min-width: 992px) {
-  .container {
-    width: 25vw;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .container {
-    width: 20vw;
-  }
-}

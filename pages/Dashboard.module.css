@@ -1,4 +1,6 @@
 .dashboard {
+  height: 100dvh;
+  width: 100vw;
   display: grid;
   grid-template-rows: 6.5rem repeat(3, min-content) min-content;
   grid-template-columns: 1fr;
@@ -8,7 +10,7 @@
 @media only screen and (min-width: 992px) {
   .dashboard {
     grid-template-rows: 6.5rem repeat(2, min-content) 4rem;
-    grid-template-columns: 2fr, 1fr;
+    grid-template-columns: 70vw 30vw;
   }
 
   .nav {
@@ -35,5 +37,11 @@
   .footer {
     grid-row: 4/5;
     grid-column: 1/-1;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .dashboard {
+    grid-template-columns: 75vw 25vw;
   }
 }
