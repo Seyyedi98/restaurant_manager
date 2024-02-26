@@ -14,7 +14,6 @@ import hotdog from "../../assets/images/categories/hotdog.png";
 import snacks from "../../assets/images/categories/snacks.png";
 import veggie from "../../assets/images/categories/veggie.png";
 import arrow_right from "../../assets/icons/Arrow-Right.svg";
-import { useSearchParams } from "react-router-dom";
 import { useState } from "react";
 
 const categories = [
@@ -49,13 +48,7 @@ const categories = [
 ];
 
 function Categories() {
-  // let [searchParams, setSearchParams] = useSearchParams();
   const [currentFilter, setCurrentFilter] = useState("Pizza");
-
-  // useEffect(() => {
-  //   searchParams.set("filter", "Pizza");
-  //   setSearchParams(searchParams);
-  // }, [searchParams, setSearchParams]);
 
   return (
     <div className={styles.categories}>

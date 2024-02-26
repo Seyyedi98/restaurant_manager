@@ -32,17 +32,43 @@
   font-size: 1.6rem;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (min-width: 992px) {
-  .cart {
-    /* width: 75vw; */
-  }
   .slider {
-    max-width: 70vw;
+    /* max-width: 70vw; */
     margin-top: 4rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .slider {
-    max-width: 80vw;
+    /* max-width: 75vw; */
+    margin-left: 4rem;
   }
 }

@@ -12,12 +12,12 @@ function FoodCard() {
         <p className={styles.food_calories}>70 Caories</p>
         <div className={styles.line} />
         <p className={styles.for_persons}>4 persons</p>
-        <p className={styles.price}>
+        <div className={styles.price}>
           <span className={styles.price_text}>$7.49</span>
           <div className={styles.addButton}>
             <AddButton />
           </div>
-        </p>
+        </div>
       </div>
       <div className={styles.image}>
         <img src={food} alt="food image" />

@@ -30,12 +30,12 @@
 
 @media only screen and (min-width: 992px) {
   .slider {
-    max-width: 70vw;
+    /* max-width: 70vw; */
     margin-top: 4rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .slider {
-    max-width: 80vw;
+    /* max-width: 80vw; */
   }
 }
