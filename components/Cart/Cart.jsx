@@ -31,7 +31,7 @@ const cartItems = [
 
 function Cart() {
   return (
-    <aside className={styles.container}>
+    <div className={styles.container}>
       <h2 className={styles.title}>My Cart</h2>
       <div className={styles.line}></div>
       <div className={styles.items}>
@@ -42,7 +42,7 @@ function Cart() {
       <div className={styles.button}>
         <Button>Checkout</Button>
       </div>
-    </aside>
+    </div>
   );
 }
 

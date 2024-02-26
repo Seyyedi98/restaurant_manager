@@ -5,6 +5,8 @@
   padding: 1.6rem;
   transition: all 0.5s;
   cursor: pointer;
+  box-shadow: var(--box-shadow-md);
+  margin-bottom: 1rem;
 }
 
 .card:hover,
@@ -45,6 +47,7 @@
   padding: 1rem 0;
   font-size: 16px;
   font-weight: 600;
+  transition: all 0.5s;
 }
 .card:hover .title {
   color: var(--bs-white);
@@ -54,12 +57,12 @@
 }
 
 .arrow_icon {
-  width: 24px;
-  height: 24px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 24px;
+  height: 24px;
   margin-inline: auto;
-  display: flex;
   background-color: var(--primary);
   fill: var(--bs-white);
   border-radius: 500px;

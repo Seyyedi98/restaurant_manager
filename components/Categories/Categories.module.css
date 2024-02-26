@@ -1,4 +1,4 @@
-.card {
+.categories {
   margin-inline: 2rem;
   margin-top: 2rem;
 }
@@ -38,6 +38,15 @@
   }
   .slider {
     max-width: 65vw;
+    margin-top: 4rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cart {
+    width: 80vw;
+  }
+  .slider {
+    max-width: 80vw;
     margin-top: 4rem;
   }
 }

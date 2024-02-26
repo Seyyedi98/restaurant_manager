@@ -49,7 +49,7 @@ const categories = [
 ];
 
 function Categories() {
-  let [searchParams, setSearchParams] = useSearchParams();
+  // let [searchParams, setSearchParams] = useSearchParams();
   const [currentFilter, setCurrentFilter] = useState("Pizza");
 
   // useEffect(() => {
@@ -58,7 +58,7 @@ function Categories() {
   // }, [searchParams, setSearchParams]);
 
   return (
-    <section className={styles.card}>
+    <div className={styles.categories}>
       <div className={styles.header}>
         <h2 className={styles.title}>Menu Categories</h2>
         <div className={styles.view_all}>
@@ -81,7 +81,7 @@ function Categories() {
             },
             620: {
               slidesPerView: 4,
-              spaceBetween: 0,
+              spaceBetween: 20,
             },
             1200: {
               slidesPerView: 5,
@@ -111,7 +111,7 @@ function Categories() {
           ))}
         </Swiper>
       </div>
-    </section>
+    </div>
   );
 }
 

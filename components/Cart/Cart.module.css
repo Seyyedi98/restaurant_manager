@@ -1,6 +1,5 @@
 .container {
   border-radius: 20px;
-  /* background-color: var(--bs-gray); */
   background-color: var(--bs-white);
   display: flex;
   flex-direction: column;
@@ -35,5 +34,10 @@
 @media only screen and (min-width: 992px) {
   .container {
     width: 25vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 20vw;
   }
 }

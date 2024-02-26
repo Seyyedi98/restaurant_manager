@@ -9,7 +9,7 @@ import UserNavbar from "../User/UserNavbar";
 
 function Navbar() {
   return (
-    <nav className={styles.navbar}>
+    <div className={styles.navbar}>
       <div className={styles.container}>
         <img
           src={arrow_right}
@@ -36,7 +36,7 @@ function Navbar() {
           <UserNavbar />
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
 

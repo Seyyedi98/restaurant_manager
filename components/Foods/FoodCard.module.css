@@ -1,0 +1,101 @@
+.card {
+  padding: 36px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 20px;
+  background-color: var(--bs-white);
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 70%;
+  box-shadow: var(--box-shadow-md);
+}
+
+.card:hover,
+.card:active {
+  background-color: var(--primary-transparent);
+}
+
+.card_active {
+  background-color: var(--primary-transparent);
+}
+
+.text_col {
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.food_name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--bs-gray-900);
+  transition: all 0.5s;
+}
+.card:hover .food_name {
+  color: var(--bs-white);
+}
+.food_name_active {
+  color: var(--bs-white);
+}
+
+.food_calories,
+.for_persons {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--bs-gray-600);
+  transition: all 0.5s;
+}
+.card:hover .food_calories,
+.card:hover .for_persons {
+  color: var(--bs-white);
+}
+.food_calories_active,
+.for_persons_active {
+  color: var(--bs-white);
+}
+
+.line {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 32px;
+  height: 0.5px;
+  background-color: var(--bs-gray-300);
+  transition: all 0.5s;
+}
+.card:hover .line {
+  background-color: var(--bs-white);
+}
+.line_active {
+  background-color: var(--bs-white);
+}
+
+.price {
+  margin-top: 1rem;
+}
+
+.price_text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary);
+  transition: all 0.5s;
+}
+.card:hover .price_text {
+  color: var(--bs-white);
+}
+.price_text_active {
+  color: var(--bs-white);
+}
+
+.image {
+  position: relative;
+}
+.image img {
+  position: absolute;
+  transform: translate(50px, -65px);
+  top: 0;
+  right: 0;
+  max-width: 13rem;
+}

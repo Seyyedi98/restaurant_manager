@@ -1,10 +1,8 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import styles from "./CategoryItemCard.module.css";
 import Arrow from "../../ui/Buttons/Arrow";
 
 function CategoryItemCard({ item, active, setCurrentFilter }) {
-  if (active === true) console.log(true);
   return (
     <div
       className={`${styles.card} ${active ? styles.card_active : null}`}
