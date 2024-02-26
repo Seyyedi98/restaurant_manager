@@ -2,14 +2,34 @@
   height: 100dvh;
   width: 100vw;
   display: grid;
-  grid-template-rows: 6.5rem repeat(3, min-content) min-content;
+  grid-template-rows: 6.5rem repeat(3, 1fr) min-content;
   grid-template-columns: 1fr;
   background-color: #fff6d857;
+  overflow: hidden;
+}
+
+.background_pattern1 {
+  position: fixed;
+  width: 100vw;
+  height: 100dvh;
+  background-image: url(../assets/images/background.svg);
+  background-size: cover;
+  z-index: -1;
+}
+
+.background_pattern2 {
+  position: fixed;
+  width: 200px;
+  height: 300px;
+  background-image: url(../assets/images/masks/bg-humberger.png);
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 992px) {
   .dashboard {
-    grid-template-rows: 6.5rem repeat(2, min-content) 4rem;
+    grid-template-rows: 6.5rem min-content 1fr 1fr min-content;
     grid-template-columns: 70vw 30vw;
   }
 
@@ -35,8 +55,17 @@
   }
 
   .footer {
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: 1/-1;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .background_pattern1 {
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: fill;
   }
 }
 

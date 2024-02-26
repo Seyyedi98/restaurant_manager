@@ -8,7 +8,9 @@ import Navbar from "../components/Navbar/Navbar";
 
 function Dashboard() {
   return (
-    <main>
+    <main className={styles.main}>
+      <div className={styles.background_pattern1}></div>
+      <div className={styles.background_pattern2}></div>
       <div className={styles.dashboard}>
         <nav className={styles.nav}>
           <Navbar />

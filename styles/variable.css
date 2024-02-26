@@ -9,6 +9,7 @@
   --bs-teal: #20c997;
   --bs-cyan: #12cdea;
   --bs-white: #fff;
+  --bs-white-opacity: rgb(255, 255, 255, 0.7);
   --bs-gray: #959895;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
@@ -23,7 +24,7 @@
   --primary: #ea6a12;
   --primary-transparent: rgb(234, 106, 18, 0.7);
   --primary-light: #fbe1d0;
-  --bg-card-transparent: rgb(211, 95, 16, 0.2);
+  --bg-card-transparent: rgb(211, 95, 16, 0.3);
   --bs-secondary: #959895;
   --bs-success: #3bb77e;
   --bs-info: #12cdea;

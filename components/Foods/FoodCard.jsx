@@ -2,6 +2,7 @@
 import styles from "./FoodCard.module.css";
 
 import food from "../../assets/images/foods/Spaghetti.png";
+import AddButton from "../../ui/Buttons/AddButton";
 
 function FoodCard() {
   return (
@@ -13,7 +14,9 @@ function FoodCard() {
         <p className={styles.for_persons}>4 persons</p>
         <p className={styles.price}>
           <span className={styles.price_text}>$7.49</span>
-          <button>+</button>
+          <div className={styles.addButton}>
+            <AddButton />
+          </div>
         </p>
       </div>
       <div className={styles.image}>
