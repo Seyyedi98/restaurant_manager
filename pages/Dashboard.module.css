@@ -1,8 +1,9 @@
 .dashboard {
-  height: 100dvh;
+  /* height: 100dvh; */
+  height: max-content;
   width: 100vw;
   display: grid;
-  grid-template-rows: 6.5rem repeat(3, 1fr) min-content;
+  grid-template-rows: 6.5rem repeat(3, minmax(fot-content, 1fr)) min-content;
   grid-template-columns: 1fr;
   background-color: #fff6d857;
 }
@@ -26,8 +27,14 @@
   z-index: -1;
 }
 
+.cart {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
 @media only screen and (min-width: 992px) {
   .dashboard {
+    height: 100dvh;
     grid-template-rows: 6.5rem min-content 1fr 1fr min-content;
     grid-template-columns: 70vw 30vw;
   }
