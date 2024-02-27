@@ -1,5 +1,5 @@
-@import "../styles/global-styles.css";
-@import "../styles/variable.css";
+@import "./styles/global-styles.css";
+@import "./styles/variable.css";
 
 /* CSS Reset */
 html,

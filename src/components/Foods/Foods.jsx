@@ -8,6 +8,8 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Grid } from "swiper/modules";
 
+import { foods } from "../../data/data";
+
 function Foods() {
   return (
     <div className={styles.foods}>
@@ -44,30 +46,11 @@ function Foods() {
           modules={[Grid, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <FoodCard />
-          </SwiperSlide>
+          {foods.map((food) => (
+            <SwiperSlide key={food.id}>
+              <FoodCard food={food} />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>
