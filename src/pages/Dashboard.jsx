@@ -8,7 +8,7 @@ function Dashboard() {
   return (
     <>
       <div className={styles.background_pattern1}></div>
-      <div className={styles.background_pattern2}></div>
+      <div className={styles.background_patternd2}></div>
       <div className={styles.dashboard}>
         <section className={styles.categories}>
           <Categories />
