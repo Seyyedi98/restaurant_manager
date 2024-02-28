@@ -25,7 +25,7 @@
   position: fixed;
   width: 200px;
   height: 300px;
-  background-image: url(../assets/images/masks/bg-humberger.png);
+  background-image: url(../assets/images/masks/bg-humberger.webp);
   right: 0;
   bottom: 0;
   z-index: -1;

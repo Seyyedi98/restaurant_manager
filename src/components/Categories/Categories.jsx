@@ -5,47 +5,10 @@ import "swiper/css";
 import CategoryItemCard from "./CategoryItemCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-
-import pizza from "../../assets/images/categories/pizza.png";
-import burger from "../../assets/images/categories/burger.png";
-import drink from "../../assets/images/categories/drink.png";
-import fruits from "../../assets/images/categories/fruits.png";
-import hotdog from "../../assets/images/categories/hotdog.png";
-import snacks from "../../assets/images/categories/snacks.png";
-import veggie from "../../assets/images/categories/veggie.png";
-import arrow_right from "../../assets/icons/Arrow-Right.svg";
 import { useState } from "react";
 
-const categories = [
-  {
-    title: "Pizza",
-    image: pizza,
-  },
-  {
-    title: "Fruits",
-    image: fruits,
-  },
-  {
-    title: "Snacks",
-    image: snacks,
-  },
-  {
-    title: "Veggie",
-    image: veggie,
-  },
-  {
-    title: "Hotdog",
-    image: hotdog,
-  },
-  {
-    title: "Burger",
-    image: burger,
-  },
-  {
-    title: "Drinks",
-    image: drink,
-  },
-];
+import arrow_right from "../../assets/icons/Arrow-Right.svg";
+import { categories } from "../../data/data";
 
 function Categories() {
   const [currentFilter, setCurrentFilter] = useState("Pizza");

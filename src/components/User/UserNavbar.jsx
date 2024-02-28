@@ -1,6 +1,6 @@
 import styles from "./UserNavbar.module.css";
 
-import profile from "../../assets/images/profile.png";
+import profile from "../../assets/images/profile.webp";
 
 function UserNavbar() {
   return (

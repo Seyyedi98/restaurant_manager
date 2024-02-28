@@ -10,6 +10,14 @@ import food9 from "../assets/images/foods/Trending image 5-1.png";
 import food10 from "../assets/images/foods/Trending image 6-1.png";
 import food11 from "../assets/images/foods/Vegetable Pizza.png";
 
+import pizza from "../assets/images/categories/pizza.webp";
+import burger from "../assets/images/categories/burger.webp";
+import drink from "../assets/images/categories/drink.webp";
+import fruits from "../assets/images/categories/fruits.webp";
+import hotdog from "../assets/images/categories/hotdog.webp";
+import snacks from "../assets/images/categories/snacks.webp";
+import veggie from "../assets/images/categories/veggie.webp";
+
 export const foods = [
   {
     id: "1",
@@ -98,5 +106,36 @@ export const foods = [
     image: food11,
     persons: 4,
     price: 19,
+  },
+];
+
+export const categories = [
+  {
+    title: "Pizza",
+    image: pizza,
+  },
+  {
+    title: "Fruits",
+    image: fruits,
+  },
+  {
+    title: "Snacks",
+    image: snacks,
+  },
+  {
+    title: "Veggie",
+    image: veggie,
+  },
+  {
+    title: "Hotdog",
+    image: hotdog,
+  },
+  {
+    title: "Burger",
+    image: burger,
+  },
+  {
+    title: "Drinks",
+    image: drink,
   },
 ];
