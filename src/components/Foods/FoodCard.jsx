@@ -24,7 +24,17 @@ function FoodCard({ food }) {
           <div
             className={styles.addButton}
             onClick={() =>
-              dispatch(addToCart({ id, name, calories, price, image, persons }))
+              dispatch(
+                addToCart({
+                  id,
+                  name,
+                  calories,
+                  price,
+                  image,
+                  persons,
+                  quantity: 1,
+                })
+              )
             }
           >
             <AddButton />

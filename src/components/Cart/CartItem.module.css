@@ -35,21 +35,16 @@
   position: relative;
 }
 
+.image img {
+  width: 3rem;
+  margin-right: 5rem;
+  transform: scale(3.5) translateY(0.1rem);
+}
+
 .trash {
   cursor: pointer;
   transition: all 0.3s;
 }
 .trash:hover {
   filter: brightness(60%);
-}
-
-.quantity span {
-  fill: var(--bs-danger);
-  margin-right: 0.2rem;
-}
-
-.image img {
-  width: 3rem;
-  margin-right: 5rem;
-  transform: scale(3.5) translateY(0.1rem);
 }

@@ -1,0 +1,29 @@
+.qunatityRow {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity {
+  font-size: 1.4rem;
+}
+
+.quantity span {
+  fill: var(--bs-danger);
+  margin-right: 0.2rem;
+}
+
+.incButton svg,
+.decButton svg,
+.delButton svg {
+  cursor: pointer;
+  width: 18px;
+  transition: all 0.3s;
+}
+
+.incButton svg:hover,
+.decButton svg:hover,
+.delButton svg:hover {
+  filter: brightness(60%);
+}

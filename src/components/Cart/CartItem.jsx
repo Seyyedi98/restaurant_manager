@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import styles from "./CartItem.module.css";
-
-import Xmark from "../../ui/Buttons/Xmark";
 import Trash from "../../ui/Buttons/Trash";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart } from "../../features/slices/cartSlice";
+import ItemQuantity from "./ItemQuantity";
 
 function CartItem({ item }) {
   const dispatch = useDispatch();
@@ -17,9 +16,7 @@ function CartItem({ item }) {
       </div>
       <div className={styles.item_leftCol}>
         <p className={styles.name}>{item.name}</p>
-        <p className={styles.quantity}>
-          <span>{<Xmark />}</span>2
-        </p>
+        <ItemQuantity item={item} />
       </div>
       <div className={styles.item_rightCol}>
         <div

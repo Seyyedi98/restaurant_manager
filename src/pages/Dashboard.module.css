@@ -6,6 +6,10 @@
   grid-template-rows: 6.5rem repeat(3, minmax(fot-content, 1fr)) min-content;
   grid-template-columns: 1fr;
   background-color: #fff6d857;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .background_pattern1 {
