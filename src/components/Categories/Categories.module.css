@@ -1,12 +1,11 @@
 .categories {
   margin-inline: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .slider {
   max-width: 80vw;
   margin-inline: auto;
-  margin-top: 4rem;
 }
 
 .header {

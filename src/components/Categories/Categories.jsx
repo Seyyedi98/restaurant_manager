@@ -90,7 +90,7 @@ function Categories() {
             },
           }}
           modules={[Pagination]}
-          loop={true}
+          // loop={true}
           className="mySwiper"
         >
           {categories.map((category) => (

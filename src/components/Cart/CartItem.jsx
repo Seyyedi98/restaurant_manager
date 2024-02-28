@@ -25,8 +25,7 @@ function CartItem({ item }) {
         >
           {<Trash />}
         </div>
-        {/* <div className={styles.price}>${item.quantity * item.price}</div> */}
-        <div className={styles.price}>${item.price}</div>
+        <div className={styles.price}>${item.quantity * item.price}</div>
       </div>
     </div>
   );

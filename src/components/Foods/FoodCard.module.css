@@ -8,8 +8,9 @@
   background-color: var(--bs-white);
   transition: all 0.5s;
   cursor: pointer;
-  width: 70%;
+  width: 75%;
   box-shadow: var(--box-shadow-md);
+  margin-bottom: 0.2rem;
 }
 
 .card:hover,
