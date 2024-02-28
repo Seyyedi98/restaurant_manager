@@ -5,12 +5,14 @@ import Footer from "../components/Footer/Footer";
 
 function Layout() {
   return (
-    <main className={styles.main}>
+    <main className={styles.container}>
       <nav className={styles.nav}>
         <Navbar />
       </nav>
 
-      <Outlet />
+      <main className={styles.main}>
+        <Outlet />
+      </main>
 
       <footer className={styles.footer}>
         <Footer />
