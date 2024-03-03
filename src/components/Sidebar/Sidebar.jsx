@@ -3,6 +3,7 @@
 import styles from "./Sidebar.module.css";
 import arrow_right from "../../assets/icons/Arrow-Right.svg";
 import Logo from "../../ui/Logo";
+import SidebarList from "./SidebarList";
 
 function Sidebar({ isOpen, setOpen }) {
   return (
@@ -22,8 +23,13 @@ function Sidebar({ isOpen, setOpen }) {
         </div>
       </div>
 
-      <div></div>
       <div className={styles.line} />
+
+      <div>
+        <SidebarList title="Home"></SidebarList>
+        <SidebarList title="Pages"></SidebarList>
+        <SidebarList title="Elements"></SidebarList>
+      </div>
     </div>
   );
 }
